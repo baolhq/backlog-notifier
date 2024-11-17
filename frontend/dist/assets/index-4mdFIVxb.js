@@ -1117,7 +1117,7 @@ function Run() {
 const resultElement = document.getElementById("result");
 const timeElement = document.getElementById("time");
 window.submit = () => {
-  let apiKey = document.getElementById("name").value;
+  let apiKey = document.getElementById("apiKey").value;
   GetUser(apiKey).then((result) => {
     if (result) {
       resultElement.innerText = result;

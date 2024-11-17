@@ -37,7 +37,6 @@ body {
 
 h3 {
   font-size: 3em;
-  line-height: 1.1;
 }
 
 a {
@@ -120,6 +119,10 @@ h1 {
 .input-box .btn {
   border-radius: 4px;
   background: var(--primary);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--primary-foreground);
 }
 
